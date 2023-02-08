@@ -1,0 +1,50 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 25px 20px;
+    z-index: 100;
+    transition: all 0.5s ease;
+    background: linear-gradient(
+        360deg, 
+        transparent, 
+        rgba(37, 37, 37, 0.372), 
+        #111);
+}
+.nav_black{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 100;
+    background-color:rgba(37, 37, 37, 0.578);
+    transition: all 0.5s ease;
+    /* background-color: #111;  OG SETTING */
+    /* background: linear-gradient(
+        360deg, 
+        transparent, 
+        rgba(37, 37, 37, 0.61), 
+        #111); */
+}
+.nav_contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav_logo{
+    width: 80px;
+    object-fit: contain;
+    cursor: pointer;
+    /* padding-left: 20px; */
+}
+.nav_avatar{
+    width: 30px;
+    object-fit: contain;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-right: 7px;
+}

@@ -1,0 +1,89 @@
+.banner{
+    position: relative;
+    /* height: 448px;   OG SETTING*/
+    height: 92vh;
+    /* width: auto; */
+    object-fit: contain;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_contents{
+    margin-left: 35px;
+    padding-top: 140px;
+    /* height: 190px; */
+}
+.banner_name{
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+.banner_description{
+    font-size: .9rem;
+    width: 20rem;
+    line-height: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+    max-width: 360px;
+    min-width: 20rem;
+    height: 80px;
+    /* height: 10rem; */
+}
+.banner_btn{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+    margin-top: 1.3rem;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    background-color: rgba(51, 51, 51, 0.5);
+    transition: all 0.4s ease;
+}
+.banner--fadeTop{
+    height: 92vh;
+    bottom: 30px;
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0),
+        transparent, 
+        rgba(37, 37, 37, 0.61), 
+        #111);
+        /* background: linear-gradient(
+            180deg, red, red 10%, 
+            green 10%,green 40%, 
+            yellow 40%, yellow); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* .banner--fadeBottom{ */
+    /* height: 6.7rem;  OG SETTING */
+    /* position:fixed;
+    bottom: 0; */
+    /* height: 7.4rem; */
+    /* height: 6.7rem;
+    background-image: linear-gradient(
+        180deg, 
+        transparent, 
+        rgba(37, 37, 37, 0.61), 
+        #111);
+} */
+/* .banner_btn:hover{
+    color: #000;
+    background-color: #e6e6e6
+} */
+.banner_btn:hover{
+    color: #000;
+    background-color: #e6e6e6
+}
+/* img{
+    object-fit: contain;
+    background-size: cover;
+    background-position: center center no-repeat;
+    width: 50px;
+    display: flex;
+} */
